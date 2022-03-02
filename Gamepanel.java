@@ -6,7 +6,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 import javax.swing.JPanel;
-import java.util.Random;
+import java.util.*;
 
 public class Gamepanel extends JPanel implements ActionListener  {
 	
@@ -195,7 +195,7 @@ public class Gamepanel extends JPanel implements ActionListener  {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+		
 		if(running) {
 			move();
 			checkapple();
